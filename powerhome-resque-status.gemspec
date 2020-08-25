@@ -52,10 +52,10 @@ Gem::Specification.new do |s|
   end
 
   if s.respond_to? :add_runtime_dependency then
-    s.add_runtime_dependency(%q<resque>.freeze, ["~> 1.19"])
+    s.add_runtime_dependency(%q<resque>.freeze, [">= 1.19", "< 3"])
     s.add_development_dependency(%q<jeweler>.freeze, [">= 0"])
   else
-    s.add_dependency(%q<resque>.freeze, ["~> 1.19"])
+    s.add_dependency(%q<resque>.freeze, [">= 1.19", "< 3"])
     s.add_dependency(%q<jeweler>.freeze, [">= 0"])
   end
 end
