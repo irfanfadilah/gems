@@ -59,4 +59,3 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<jeweler>.freeze, [">= 0"])
   end
 end
-
